@@ -2,8 +2,8 @@
 //  main.swift
 //  SimpleCalc
 //
-//  Created by Daniel Gil Chávez on 10/6/16.
-//  Copyright © 2016 Unintended Software. All rights reserved.
+//  Jose Daniel Gil Chavez
+//  Info 498A
 //
 
 import Foundation
