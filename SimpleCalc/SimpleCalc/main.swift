@@ -37,7 +37,7 @@ case "calc":
         print(num1 % num2)
         
     default:
-        print("Not a valid oparation.")
+        print("Not a valid operation.")
     }
     
 case "count":
