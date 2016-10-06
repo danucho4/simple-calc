@@ -25,19 +25,19 @@ case "calc":
     
     switch operation {
     case "+":
-        print(num1+num2)
+        print(num1 + num2)
     case "-":
-        print(num1-num2)
+        print(num1 - num2)
     case "*":
-        print(num1*num2)
+        print(num1 * num2)
         
     case "/":
-        print(num1/num2)
+        print(num1 / num2)
     case "%":
-        print(num1%num2)
+        print(num1 % num2)
         
     default:
-        print("Operation was unsuccessful!")
+        print("Not a valid oparation.")
     }
     
 case "count":
@@ -51,13 +51,11 @@ case "avg":
     let avgStrings = readLine(strippingNewline: true)!
     let avgStringsArr = avgStrings.characters.split{$0 == " "}.map(String.init)
     var total=0;
-    
     for i in 0 ..< avgStringsArr.count  {
-        
         total = total + Int(UInt.init(avgStringsArr[i])!)
-        
     }
     print("Average: " + String(total/avgStringsArr.count));
+
 case "fact":
     print("Find the factorial of number:")
     let factNumber = UInt.init(readLine(strippingNewline: true)!)!
@@ -66,7 +64,7 @@ case "fact":
     for num in 1...fact {
         answer = answer * num
     }
-    print("Factorial: "+String(answer));
+    print("Factorial: " + String(answer));
 
 default:
     print("Not a valid input")
